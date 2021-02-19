@@ -1,0 +1,25 @@
+ 
+main {
+  margin-top: 50px;
+  display: flex;
+  #preview{
+    border: 1px red solid;
+    width: 796px;
+    height: 1123px;
+    .imagen {
+      // max-width: 796px;
+      // max-height: 1123px;
+      // width: auto;
+      // height: auto;
+      // background-size: 100vw 100vh;
+      height: inherit;
+      width: inherit;
+      // object-fit: cover;
+      // object-position: center;
+    }
+    .imgVertical{
+      transform: rotate(90deg);
+    }
+  }
+}
+
